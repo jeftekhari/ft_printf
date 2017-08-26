@@ -8,3 +8,10 @@ Successfully deployed a version of printf that uses function pointers. My progra
 - Function Pointers
 - Wide Chars
 - Test Cases
+
+
+The biggest takeaway was learning how to use function pointers in C. I was able to create a cool dispatcher function that chose the right function to call based on the given conversion specifier.
+
+I created a couple different dispatch functions, but eventually settled on this one.
+
+![alt text](https://github.com/jeftekhari/ft_printf/blob/master/pics/dispatcher.png "Dispatcher Function")
